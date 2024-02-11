@@ -27,8 +27,8 @@ const Transactions = () => {
         <tbody>
           {data.map((item) => {
             return (
-              <tr>
-                <td key={item.title}>{item.title}</td>
+              <tr key={item.title}>
+                <td >{item.title}</td>
                 <td>{item.action}</td>
               </tr>
             );

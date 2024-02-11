@@ -16,6 +16,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
     <head>
+      
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     {/* <link href="https://fonts.googleapis.com/css2?family=NTR&family=Orbitron:wght@500&family=Poppins:ital,wght@0,200;1,100&display=swap" rel="stylesheet" /> */}

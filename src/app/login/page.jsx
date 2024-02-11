@@ -95,7 +95,7 @@ const Login = ({ url }) => {
       </button>
       <span className={styles.or}>- OR -</span>
       <Link className={styles.link} href="/register">
-        Create new account
+        <h2>Create new account</h2>
       </Link>
       {/* <button
         onClick={() => {

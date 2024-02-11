@@ -160,6 +160,10 @@ a {
   .cardImg{
     width: 56vw;
   }
+  .sectionContainer{
+    position: relative;
+    left: 7%;
+  }
 }
 @media screen and (max-width: 720px) {
   .container {

@@ -17,7 +17,7 @@ function Internship() {
 
     addjobs();
 
-  }, [])
+  })
 
 
   const addjobs=async()=>{

@@ -73,7 +73,7 @@ const Register = () => {
       </form>
       <span className={styles.or}>- OR -</span>
       <Link className={styles.link} href="/login">
-        Login with an existing account
+        <h2>Login with an existing account </h2>
       </Link>
     </div>
   );

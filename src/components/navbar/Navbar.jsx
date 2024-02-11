@@ -89,7 +89,7 @@ const Navbar = () => {
     <div className={styles.container}  >
       <NextTopLoader  color="#fff"  size="10px" />
       <Link href="/" className={styles.logo}>
-        IPSC
+        College Connect
       </Link>
       {/* <DarkModeToggle /> */}
       {menuOpen && 

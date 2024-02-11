@@ -55,8 +55,8 @@ export default function Eform() {
   return (
     <div>
       {/* <div className="containerForm"> */}
-    <form className='EForm' onSubmit={handleSubmit}>
-    <label for="event">Event Name</label>
+    <form className='EForm' onSubmit={handleSubmit}>Event Submission Form
+    {/* <label for="event">EVENT NAME</label> */}
     <input type="text"
      id="ename" 
      name="event" 
@@ -64,7 +64,7 @@ export default function Eform() {
      onChange={(e) => setEvent(e.target.value)}
      placeholder="Event name" />
      
-    <label for="date">date</label>
+    {/* <label for="date">DATE</label> */}
     <input type="date" 
     id="date"
     name="date" 
@@ -72,7 +72,7 @@ export default function Eform() {
     onChange={(e) => setDate(e.target.value)}
     placeholder="date" />
    
-    <label for="desc">event description</label>
+    {/* <label for="desc">event description</label> */}
     <input type="text" 
     id="text" 
     name="desc"
@@ -81,24 +81,27 @@ export default function Eform() {
     placeholder="description" />
   
 
-    <label for="event_category">Category</label>
+    {/* <label for="event_category">Category</label> */}
     <select id="event_category"
      name="event_category"
      value={event_category}
+     placeholder ="event_category"
      onChange={(e) => setEvent_category(e.target.value)}>
       <option value="cultural">Cultural</option>
       <option value="technical">Technical</option>
       <option value="sports">Sports</option>
     </select>
     
-    <label>event image</label>
+    {/* <label>event image</label> */}
     <input type="file"
      name="eimg"
+     placeholder='event_image'
      value={eimg}
      onChange={(e) => setEimg(e.target.value)}/>
     
-    <label>event Link</label>
+    {/* <label>event Link</label> */}
     <input type="url"
+    placeholder='event_Link'
     name='elink'
     value={elink}
     onChange={(e) => setElink(e.target.value)}

@@ -66,13 +66,13 @@
 }
 @media screen and (min-width:251px) and (max-width: 705px) {
   .container{
-    top: 20%;
-    position: absolute;
-    width:70%;
-    margin-left: 10%;
+    margin-top: 40%;
+    position: relative;
+    width:80%;
+    /* margin-left: 10%; */
 }
 .button{
-  width:auto;
+  width:90%;
 }
 .titlee{
   font-size: 25px;

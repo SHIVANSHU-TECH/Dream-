@@ -14,7 +14,7 @@
   gap: 2rem;
   border-radius: 10px;
 }
-.eForm {
+.EForm {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -66,19 +66,27 @@ input[type], select {
     /* -webkit-filter: blur(8px); */
   }
   @media screen and (max-width:351px) {
-  .eForm{
+  .EForm{
     left:3%;
+    
   }
   }
   @media screen and (min-width:351px) and (max-width: 605px) {
-    .eForm{
+    .EForm{
         position: fixed;
-        top: 14%;
-        left: 15%;
-        gap:10px;
+        top: 20%;
+        left: 10%; 
+        border-radius: 13px;
+        gap:22px;
+        /* margin-top: 110px; */
+         width: 80%; 
+        border: 4px solid;
+        border-style: outset;
     }
     input[type], select {
       margin: 2px 0;
     }
+    input[type], select {
+      width: 90%;}
   }
   

@@ -15,12 +15,10 @@ export default function Page() {
   const [AllEvents, setAllEvents] = useState([])
   
 
-
   useEffect(() => {
-
     addEvents();
+})
 
-  }, [])
 
 
   const addEvents=async()=>{
